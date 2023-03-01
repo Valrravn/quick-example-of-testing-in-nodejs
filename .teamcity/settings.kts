@@ -72,7 +72,8 @@ object Build : BuildType({
         perfmon {
         }
         buildCache {
-            name = "NpmPackages"
+            name = "NpmPackages2"
+            publishOnlyChanged = false
             rules = "node_modules/"
         }
     }
